@@ -28,5 +28,5 @@ if __name__ == "__main__":
 
     print("End timestamp: ", time.time())
 
-    with open("output.json", "w") as outfile:  
+    with open("./data/dump.json", "w") as outfile:  
         json.dump(data, outfile)
