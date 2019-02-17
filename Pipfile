@@ -8,7 +8,6 @@ verify_ssl = true
 [packages]
 asyncio = "*"
 websockets = "*"
-basemap = "*"
 
 [requires]
 python_version = "3.6"
